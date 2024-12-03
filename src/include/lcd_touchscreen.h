@@ -2,7 +2,7 @@
 #ifndef LCD_TOUCHSCREEN_H
 #define LCD_TOUCHSCREEN_H
 
-#include <mbed.h>
+#include "system_config.h"
 #include "drivers/LCD_DISCO_F429ZI.h"
 #include "drivers/TS_DISCO_F429ZI.h"
 
