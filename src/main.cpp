@@ -45,7 +45,6 @@ float gyro_buffer_z[WINDOW_SIZE] = {0};
 size_t gyro_index_x = 0, gyro_index_y = 0, gyro_index_z = 0;  // Index for each buffer
 float gyro_sum_x = 0, gyro_sum_y = 0, gyro_sum_z = 0;  // Sum for each axis
 
-
 /*******************************************************************************
  * Function Prototypes of LCD and Touch Screen
  * ****************************************************************************/
