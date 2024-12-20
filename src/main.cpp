@@ -13,8 +13,6 @@
  * - Shruti Tulshidas Pangare
  */
 
-
-
 #include <mbed.h>                     // Mbed core
 #include <vector>                     // For vector usage
 #include <array>                      // For array usage
