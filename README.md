@@ -72,8 +72,7 @@ We welcome community contributions to enhance the Embedded Sentry System. To con
 
 ### Development Team
 
-- Xhovani Mali (xxm202) - Lead Developer
-- Shruti Pangare (stp8232) - Developer
+- Xhovani Mali (xxm202) - Developer
 - Temira Koenig (trk8600) - Developer
 - Shruti Tulshidas Pangare - Developer
 
