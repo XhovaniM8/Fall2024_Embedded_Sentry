@@ -1,6 +1,18 @@
-//
-// Created by Xhovani Mali on 12/19/24.
-//
+/**
+ * @file utilities.h
+ * @author Xhovani Mali (xxm202)
+ * @brief Header file for utility functions in the embedded sentry project.
+ * @version 0.1
+ * @date 2024-12-15
+ *
+ * @copyright Copyright (c) 2024
+ *
+ * @group Members:
+ * - Xhovani Mali (xxm202)
+ * - Shruti Pangare (stp8232)
+ * - Temira Koenig (trk8600)
+ * - Shruti Tulshidas Pangare
+ */
 
 #ifndef UTILITIES_H
 #define UTILITIES_H

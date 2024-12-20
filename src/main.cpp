@@ -1,13 +1,18 @@
 /**
  * @file main.cpp
- * @author Dmitri Lyalikov (dvl2013@nyu.edu)
+ * @author Xhovani Mali (xxm202)
  * @brief Entry point to embedded systems final project on embedded sentry.
  * @version 0.1
  * @date 2024-12-15
- * 
- * @copyright Copyright (c) 2024
- * 
+ *
+ *
+ * @group Members:
+ * - Xhovani Mali (xxm202)
+ * - Shruti Pangare (stp8232)
+ * - Temira Koenig (trk8600)
+ * - Shruti Tulshidas Pangare
  */
+
 
 
 #include <mbed.h>                     // Mbed core
