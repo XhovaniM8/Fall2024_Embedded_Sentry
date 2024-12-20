@@ -13,8 +13,10 @@
  * - Temira Koenig 
  */
 
-#include <mbed.h>
+#ifndef SYSTEM_CONFIG_H
+#define SYSTEM_CONFIG_H
 
+#include <mbed.h>
 #include <array>
 #include <cmath>
 #include <cstdio>
@@ -23,9 +25,6 @@
 
 #include "drivers/LCD_DISCO_F429ZI.h"
 #include "drivers/TS_DISCO_F429ZI.h"
-
-#ifndef SYSTEM_CONFIG_H
-#define SYSTEM_CONFIG_H
 
 #define CTRL_REG_1 0x20  // control register 1
 #define CTRL_REG_3 0x22  // control register 3
