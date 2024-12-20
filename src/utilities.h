@@ -1,0 +1,78 @@
+//
+// Created by Xhovani Mali on 12/19/24.
+//
+
+#ifndef UTILITIES_H
+#define UTILITIES_H
+
+// Include system configuration header
+#include "system_config.h"
+
+#define WINDOW_SIZE 5  // The size of the moving average window
+
+// Function declarations for utility functions
+
+/**
+ * @brief Calculate the correlation for each coordinate between two vectors
+ * @param vec1: the first vector (contains 3D data)
+ * @param vec2: the second vector (contains 3D data)
+ * @return the correlation for each coordinate (x, y, z) as a vector of floats
+ */
+array<float, 3> calculateCorrelationVectors(vector<array<float, 3>>& vec1, vector<array<float, 3>>& vec2);
+
+/**
+ * @brief Calculate the correlation between two vectors
+ * @param a: the first vector
+ * @param b: the second vector
+ * @return the correlation between the two vectors
+ */
+float correlation(const vector<float> &a, const vector<float> &b);
+
+/**
+ * @brief Trim the gyro data based on a threshold
+ * @param data: the gyro data to trim
+ */
+void trim_gyro_data(vector<array<float, 3>> &data);
+
+/**
+ * @brief Calculate the Dynamic Time Warping (DTW) distance between two vectors
+ * @param s: the first vector
+ * @param t: the second vector
+ * @return the DTW distance between the two vectors
+ */
+float dtw(const vector<array<float, 3>> &s, const vector<array<float, 3>> &t);
+
+/**
+ * @brief Calculate the Euclidean distance between two vectors
+ * @param a: the first vector
+ * @param b: the second vector
+ * @return the Euclidean distance between the two vectors
+ */
+float euclidean_distance(const array<float, 3> &a, const array<float, 3> &b);
+
+/**
+ * @brief Read gyro data from flash memory
+ * @param flash_address: the flash address to read from
+ * @param data_size: the size of the data to read
+ * @return a vector containing the gyro data read from flash
+ */
+vector<array<float, 3>> readGyroDataFromFlash(uint32_t flash_address, size_t data_size);
+
+/**
+ * @brief Store gyro data to flash memory
+ * @param gesture_key: the gyro data to store
+ * @param flash_address: the address in flash to store the data
+ * @return true if data is stored successfully, false otherwise
+ */
+bool storeGyroDataToFlash(vector<array<float, 3>> &gesture_key, uint32_t flash_address);
+
+/**
+ * @brief Apply a moving average filter to smooth data
+ * @param new_value: the new value to add to the moving average
+ * @param buffer: the buffer to store the values for averaging
+ * @param index: the current index in the buffer
+ * @param sum: the sum of the values in the buffer
+ * @return the moving average of the values in the buffer
+ */
+
+#endif // UTILITIES_H
