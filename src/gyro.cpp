@@ -8,9 +8,9 @@
  * @copyright Copyright (c) 2024
  *
  * @group Members:
- * - Xhovani Mali (xxm202)
- * - Shruti Pangare (stp8232)
- * - Temira Koenig (trk8600)
+ * - Xhovani Mali 
+ * - Shruti Pangare 
+ * - Temira Koenig 
  */
 
 
