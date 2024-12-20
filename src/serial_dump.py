@@ -14,7 +14,6 @@
 - Shruti Tulshidas Pangare
 """
 
-
 import serial
 
 # Connect to serial port
