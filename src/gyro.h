@@ -12,7 +12,6 @@
  * - Xhovani Mali (xxm202)
  * - Shruti Pangare (stp8232)
  * - Temira Koenig (trk8600)
- * - Shruti Tulshidas Pangare
  */
 
 #include <mbed.h>
