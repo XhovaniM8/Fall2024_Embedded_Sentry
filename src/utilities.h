@@ -81,13 +81,4 @@ vector<array<float, 3>> readGyroDataFromFlash(uint32_t flash_address,
 bool storeGyroDataToFlash(vector<array<float, 3>> &gesture_key,
                           uint32_t flash_address);
 
-/**
- * @brief Apply a moving average filter to smooth data
- * @param new_value: the new value to add to the moving average
- * @param buffer: the buffer to store the values for averaging
- * @param index: the current index in the buffer
- * @param sum: the sum of the values in the buffer
- * @return the moving average of the values in the buffer
- */
-
 #endif  // UTILITIES_H
