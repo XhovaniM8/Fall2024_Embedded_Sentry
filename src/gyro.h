@@ -6,7 +6,6 @@
  * @version 0.1
  * @date 2024-12-15
  *
- * @copyright Copyright (c) 2024
  *
  * @group Members:
  * - Xhovani Mali 
