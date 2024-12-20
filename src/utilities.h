@@ -30,7 +30,8 @@
  * @param vec2: the second vector (contains 3D data)
  * @return the correlation for each coordinate (x, y, z) as a vector of floats
  */
-array<float, 3> calculateCorrelationVectors(vector<array<float, 3>>& vec1, vector<array<float, 3>>& vec2);
+array<float, 3> calculateCorrelationVectors(vector<array<float, 3>> &vec1,
+                                            vector<array<float, 3>> &vec2);
 
 /**
  * @brief Calculate the correlation between two vectors
@@ -68,7 +69,8 @@ float euclidean_distance(const array<float, 3> &a, const array<float, 3> &b);
  * @param data_size: the size of the data to read
  * @return a vector containing the gyro data read from flash
  */
-vector<array<float, 3>> readGyroDataFromFlash(uint32_t flash_address, size_t data_size);
+vector<array<float, 3>> readGyroDataFromFlash(uint32_t flash_address,
+                                              size_t data_size);
 
 /**
  * @brief Store gyro data to flash memory
@@ -76,7 +78,8 @@ vector<array<float, 3>> readGyroDataFromFlash(uint32_t flash_address, size_t dat
  * @param flash_address: the address in flash to store the data
  * @return true if data is stored successfully, false otherwise
  */
-bool storeGyroDataToFlash(vector<array<float, 3>> &gesture_key, uint32_t flash_address);
+bool storeGyroDataToFlash(vector<array<float, 3>> &gesture_key,
+                          uint32_t flash_address);
 
 /**
  * @brief Apply a moving average filter to smooth data
@@ -87,4 +90,4 @@ bool storeGyroDataToFlash(vector<array<float, 3>> &gesture_key, uint32_t flash_a
  * @return the moving average of the values in the buffer
  */
 
-#endif // UTILITIES_H
+#endif  // UTILITIES_H
