@@ -7,10 +7,9 @@
  *
  *
  * @group Members:
- * - Xhovani Mali (xxm202)
- * - Shruti Pangare (stp8232)
- * - Temira Koenig (trk8600)
- * - Shruti Tulshidas Pangare
+ * - Xhovani Mali 
+ * - Shruti Pangare 
+ * - Temira Koenig 
  */
 
 #include <mbed.h>                     // Mbed core
