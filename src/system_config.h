@@ -1,7 +1,8 @@
 /**
  * @file system_config.h
  * @author Xhovani Mali (xxm202)
- * @brief Header file for system configuration settings in the embedded sentry project.
+ * @brief Header file for system configuration settings in the embedded sentry
+ * project.
  * @version 0.1
  * @date 2024-12-15
  *
@@ -15,11 +16,13 @@
  */
 
 #include <mbed.h>
-#include <vector>
+
 #include <array>
-#include <limits>
 #include <cmath>
 #include <cstdio>
+#include <limits>
+#include <vector>
+
 #include "drivers/LCD_DISCO_F429ZI.h"
 #include "drivers/TS_DISCO_F429ZI.h"
 
@@ -36,7 +39,7 @@
 #define ODR_200_CUTOFF_50 0x60
 
 // Interrupt configurations
-#define INT2_DRDY 0x08   // Data ready on DRDY/INT2 pin
+#define INT2_DRDY 0x08  // Data ready on DRDY/INT2 pin
 
 // Fullscale selections
 #define FULL_SCALE_245 0x00       // full scale 245 dps
@@ -53,7 +56,7 @@
 #define MY_LEG 1               // put board on left leg 0.8m above ground
 #define DEGREE_TO_RAD 0.0175f  // rad = dgree * (pi / 180)
 
-#define POWERON 0x0f   // turn gyroscope
+#define POWERON 0x0f  // turn gyroscope
 
 // Event flags for event handler ()
 #define KEY_FLAG 1
@@ -63,10 +66,11 @@
 // on board discovery button
 #define USER_BUTTON PA_0
 
-//LCD font size
+// LCD font size
 #define FONT_SIZE 16
 
-// the unlocking threshold, change this to a smaller value if you have trouble unlocking (has to be positive)
+// the unlocking threshold, change this to a smaller value if you have trouble
+// unlocking (has to be positive)
 #define CORRELATION_THRESHOLD .70f
 
 #endif  // SYSTEM_CONFIG_H
